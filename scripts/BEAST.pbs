@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=1G
+#SBATCH --time=120:00:00
+
+set -e
+set -u
+set -o pipefail
+
+module load gcc/8.3.0 openmpi/3.1.4
+module load beagle-lib/3.0.2
+module load java
+module load fosscuda/2019b
+module load beast/2.6.3
+
+DYNAMIC_VARS=${DYNAMIC_VARS%\"}
+DYNAMIC_VARS=${DYNAMIC_VARS#\"}
+
+beast \
+    -overwrite \
+    -beagle \
+    -instances $CORES \
+    -threads $CORES \
+    -D ${DYNAMIC_VARS} \
+    -DFout $WORK_DIR/$BEAST_XML_FILENAME \
+    -seed $SEED \
+    -statefile $PREFIX.$BEAST_XML_FILENAME.state \
+    -prefix $PREFIX. \
+    "${PARAMS[@]}" \
+    $DYNAMIC_XML > $PREFIX.$BEAST_XML_FILENAME.out

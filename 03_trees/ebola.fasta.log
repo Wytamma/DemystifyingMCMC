@@ -1,0 +1,315 @@
+IQ-TREE multicore version 2.0.7 for Mac OS X 64-bit built Jun 17 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MacBook-Pro.local (AVX2, FMA3, 8 GB RAM)
+Command: iqtree2 -s cleaned_alignments/ebola.fasta -T AUTO -m GTR+I+G -redo --prefix trees/ebola.fasta
+Seed:    975536 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 31 01:18:26 2021
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file cleaned_alignments/ebola.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 13 sites contain only gaps or ambiguous characters.
+Alignment has 196 sequences with 18970 columns, 865 distinct patterns
+61 parsimony-informative, 121 singleton sites, 18788 constant sites
+                     Gap/Ambiguity  Composition  p-value
+   1  MH607892_26/08/2014    2.35%    passed     93.78%
+   2  MH607893_26/08/2014    1.32%    passed     98.95%
+   3  MH607894_26/08/2014    1.14%    passed     99.65%
+   4  MH607895_26/08/2014    1.31%    passed     98.91%
+   5  KR653251_22/08/2014    0.21%    passed     99.99%
+   6  KR653252_20/08/2014    0.21%    passed     99.98%
+   7  KR653267_23/08/2014    0.26%    passed     99.98%
+   8  KR653239_22/08/2014    0.28%    passed     99.98%
+   9  KR653241_24/08/2014    0.39%    passed     99.92%
+  10  KR653227_26/08/2014    0.24%    passed     99.98%
+  11  KR817227_13/06/2014    0.10%    passed     99.99%
+  12  KR817228_14/06/2014    0.09%    passed     99.99%
+  13  KR817229_15/06/2014    0.44%    passed     99.76%
+  14  KR817236_24/06/2014    0.08%    passed     99.99%
+  15  KR817238_26/06/2014    0.09%    passed     99.98%
+  16  KR817244_12/07/2014    0.25%    passed     99.98%
+  17  KP184503_25/08/2014    0.09%    passed     99.99%
+  18  KM034550_25/05/2014    0.43%    passed    100.00%
+  19  KM034551_26/05/2014    0.24%    passed     99.98%
+  20  KM034552_26/05/2014    1.06%    passed     98.19%
+  21  KM233035_02/06/2014    0.31%    passed     99.96%
+  22  KM233036_02/06/2014    0.51%    passed     99.69%
+  23  KM233037_03/06/2014    0.31%    passed     99.98%
+  24  KM233038_03/06/2014    0.31%    passed     99.98%
+  25  KM233039_03/06/2014    0.11%    passed     99.99%
+  26  KM233040_03/06/2014    0.26%    passed     99.99%
+  27  KM233041_03/06/2014    0.44%    passed     99.82%
+  28  KM233042_03/06/2014    0.31%    passed     99.98%
+  29  KM233043_03/06/2014    0.29%    passed     99.79%
+  30  KM233044_04/06/2014    0.31%    passed     99.98%
+  31  KM233045_04/06/2014    0.26%    passed    100.00%
+  32  KM034553_27/05/2014    0.23%    passed    100.00%
+  33  KM034554_27/05/2014    0.12%    passed     99.99%
+  34  KM034556_26/05/2014    0.09%    passed     99.99%
+  35  KM034558_28/05/2014    0.29%    passed     99.93%
+  36  KM034559_28/05/2014    0.33%    passed     99.99%
+  37  KM034560_28/05/2014    0.11%    passed    100.00%
+  38  KM034561_28/05/2014    0.33%    passed     99.96%
+  39  KM034562_28/05/2014    0.08%    passed     99.99%
+  40  KM034563_28/05/2014    2.79%    passed     99.48%
+  41  KM233049_31/05/2014    0.13%    passed    100.00%
+  42  KM233050_09/06/2014    0.08%    passed     99.99%
+  43  KM233053_05/06/2014    0.08%    passed     99.99%
+  44  KM233054_07/06/2014    0.14%    passed    100.00%
+  45  KM233055_07/06/2014    0.48%    passed     99.60%
+  46  KM233056_07/06/2014    0.08%    passed     99.99%
+  47  KM233058_10/06/2014    0.63%    passed     99.64%
+  48  KM233061_10/06/2014    0.42%    passed     99.75%
+  49  KM233062_11/06/2014    0.18%    passed    100.00%
+  50  KM233063_12/06/2014    0.10%    passed     99.99%
+  51  KM233064_14/06/2014    0.88%    passed     99.91%
+  52  KM233065_12/06/2014    0.24%    passed     99.98%
+  53  KM233069_12/06/2014    0.08%    passed     99.98%
+  54  KM233071_12/06/2014    0.37%    passed     99.98%
+  55  KM233072_14/06/2014    0.12%    passed    100.00%
+  56  KM233073_14/06/2014    0.31%    passed     99.98%
+  57  KM233074_14/06/2014    0.42%    passed     99.78%
+  58  KM233075_14/06/2014    0.21%    passed     99.99%
+  59  KM233076_14/06/2014    0.84%    passed     99.80%
+  60  KM233077_15/06/2014    0.38%    passed     99.91%
+  61  KM233078_15/06/2014    0.31%    passed     99.98%
+  62  KM233079_15/06/2014    0.53%    passed     99.65%
+  63  KM233080_15/06/2014    0.14%    passed    100.00%
+  64  KM233081_15/06/2014    0.24%    passed    100.00%
+  65  KM233082_15/06/2014    0.83%    passed     99.61%
+  66  KM233084_15/06/2014    0.26%    passed    100.00%
+  67  KM233085_15/06/2014    0.46%    passed     99.65%
+  68  KM233086_15/06/2014    0.74%    passed     99.83%
+  69  KM233087_15/06/2014    0.26%    passed    100.00%
+  70  KM233089_15/06/2014    0.30%    passed     99.80%
+  71  KM233090_15/06/2014    0.90%    passed     98.93%
+  72  KM233091_15/06/2014    0.44%    passed     99.72%
+  73  KM233092_15/06/2014    0.12%    passed    100.00%
+  74  KM233093_15/06/2014    0.47%    passed     99.81%
+  75  KM233094_15/06/2014    0.24%    passed    100.00%
+  76  KM233095_15/06/2014    0.57%    passed     99.84%
+  77  KM233096_15/06/2014    0.09%    passed     99.98%
+  78  KM233097_15/06/2014    0.11%    passed     99.99%
+  79  KM233098_16/06/2014    0.11%    passed     99.99%
+  80  KM233100_16/06/2014    0.21%    passed     99.99%
+  81  KM233101_16/06/2014    0.50%    passed     99.63%
+  82  KM233102_16/06/2014    0.15%    passed    100.00%
+  83  KM233103_16/06/2014    0.12%    passed     99.99%
+  84  KM233104_17/06/2014    0.26%    passed     99.62%
+  85  KM233105_17/06/2014    0.31%    passed     99.98%
+  86  KM233106_17/06/2014    0.15%    passed    100.00%
+  87  KM233107_17/06/2014    0.50%    passed     99.65%
+  88  KM233108_18/06/2014    0.31%    passed     99.98%
+  89  KM233109_18/06/2014    0.08%    passed     99.97%
+  90  KM233110_18/06/2014    0.09%    passed     99.98%
+  91  KM233111_18/06/2014    1.16%    passed     99.50%
+  92  KM233112_18/06/2014    0.26%    passed     99.99%
+  93  KM233113_18/06/2014    0.08%    passed     99.99%
+  94  KM233115_18/06/2014    0.71%    passed     99.77%
+  95  KM233116_04/06/2014    0.24%    passed    100.00%
+  96  KR105200_16/06/2014    0.32%    passed     99.99%
+  97  KR105201_19/06/2014    2.60%    passed     84.51%
+  98  KR105202_18/06/2014    1.04%    passed     99.33%
+  99  KR105203_17/06/2014    4.55%    passed     97.05%
+ 100  KR105204_19/06/2014    0.28%    passed     99.99%
+ 101  KR105205_19/06/2014    0.18%    passed    100.00%
+ 102  KR105206_21/06/2014    0.79%    passed     99.56%
+ 103  KR105207_21/06/2014    0.16%    passed    100.00%
+ 104  KR105208_22/06/2014    1.34%    passed     99.88%
+ 105  KR105209_24/06/2014    0.55%    passed     99.79%
+ 106  KR105210_24/06/2014    0.28%    passed     99.99%
+ 107  KR105211_25/06/2014    5.75%    passed     96.43%
+ 108  KR105212_24/06/2014    3.29%    passed     77.47%
+ 109  KR105213_05/07/2014    0.20%    passed     99.99%
+ 110  KR105214_04/07/2014    0.36%    passed    100.00%
+ 111  KR105215_06/07/2014    0.23%    passed    100.00%
+ 112  KR105216_07/07/2014    0.34%    passed     99.91%
+ 113  KR105217_08/07/2014    0.76%    passed     99.87%
+ 114  KR105218_08/07/2014    0.16%    passed    100.00%
+ 115  KR105219_09/07/2014    0.32%    passed     99.97%
+ 116  KR105220_11/07/2014    2.53%    passed     98.27%
+ 117  KR105221_10/07/2014    0.21%    passed    100.00%
+ 118  KR105222_11/07/2014    0.23%    passed    100.00%
+ 119  KR105223_11/07/2014    0.36%    passed     99.91%
+ 120  KR105224_11/07/2014    0.27%    passed    100.00%
+ 121  KR105225_11/07/2014    0.21%    passed    100.00%
+ 122  KR105226_11/07/2014    0.31%    passed     99.97%
+ 123  KR105227_11/07/2014    0.15%    passed    100.00%
+ 124  KR105228_11/07/2014    0.23%    passed     99.99%
+ 125  KR105229_12/07/2014    0.25%    passed    100.00%
+ 126  KR105230_12/07/2014    0.66%    passed     99.89%
+ 127  KR105231_13/07/2014    0.21%    passed     99.99%
+ 128  KR105232_14/07/2014    0.26%    passed     99.98%
+ 129  KR105233_14/07/2014    0.32%    passed     99.94%
+ 130  KR105234_14/07/2014    0.56%    passed    100.00%
+ 131  KR105235_14/07/2014    0.26%    passed     99.99%
+ 132  KR105236_13/07/2014    2.64%    passed     95.24%
+ 133  KR105237_14/07/2014    0.50%    passed     99.92%
+ 134  KR105238_14/07/2014    0.73%    passed     99.58%
+ 135  KR105239_18/07/2014    0.21%    passed     99.99%
+ 136  KR105240_15/07/2014    0.24%    passed     99.99%
+ 137  KR105241_09/07/2014    0.19%    passed    100.00%
+ 138  KR105242_14/07/2014    0.16%    passed    100.00%
+ 139  KR105243_15/07/2014    0.10%    passed    100.00%
+ 140  KR105244_16/07/2014    0.12%    passed    100.00%
+ 141  KR105245_16/07/2014    1.38%    passed     99.92%
+ 142  KR105246_18/07/2014    2.23%    passed     98.71%
+ 143  KR105247_18/07/2014    0.38%    passed     99.49%
+ 144  KR105248_18/07/2014    0.10%    passed     99.98%
+ 145  KR105249_19/07/2014    0.31%    passed     99.99%
+ 146  KR105250_19/07/2014    0.74%    passed     99.71%
+ 147  KR105251_19/07/2014    0.23%    passed    100.00%
+ 148  KR105252_19/07/2014    0.12%    passed     99.99%
+ 149  KR105253_20/07/2014    1.89%    passed     92.78%
+ 150  KR105254_20/07/2014    3.89%    passed     45.96%
+ 151  KR105255_20/07/2014    5.59%    passed     31.43%
+ 152  KR105256_21/07/2014    0.11%    passed    100.00%
+ 153  KR105257_21/07/2014    4.05%    passed     65.64%
+ 154  KR105258_21/07/2014    0.28%    passed    100.00%
+ 155  KR105259_05/08/2014    4.43%    passed     40.90%
+ 156  KR105260_22/07/2014    2.85%    passed     58.22%
+ 157  KR105261_26/07/2014    2.68%    passed     95.23%
+ 158  KR105262_01/08/2014    0.29%    passed     99.98%
+ 159  KR105263_03/08/2014    0.82%    passed     99.95%
+ 160  KR105264_03/08/2014    0.82%    passed     98.25%
+ 161  KR105265_03/08/2014    0.66%    passed     99.99%
+ 162  KR105266_04/08/2014    0.65%    passed     99.39%
+ 163  KR105267_04/08/2014    2.89%    passed     70.39%
+ 164  KR105268_05/08/2014    0.50%    passed     99.55%
+ 165  KR105269_05/08/2014    0.26%    passed     99.95%
+ 166  KR105270_05/08/2014    0.50%    passed     99.99%
+ 167  KR105271_05/08/2014    0.25%    passed     99.99%
+ 168  KR105272_09/08/2014    3.18%    passed     82.18%
+ 169  KR105273_10/08/2014    1.02%    passed     97.72%
+ 170  KR105274_10/08/2014    0.55%    passed     99.30%
+ 171  KR105275_10/08/2014    0.85%    passed     99.95%
+ 172  KR105276_11/08/2014    0.32%    passed     99.98%
+ 173  KR105277_12/08/2014    0.38%    passed     99.96%
+ 174  KR105278_13/08/2014    0.23%    passed     99.99%
+ 175  KR105279_12/08/2014    0.50%    passed     97.89%
+ 176  KR105280_13/08/2014    0.80%    passed     98.77%
+ 177  KR105281_13/08/2014    0.61%    passed     99.56%
+ 178  KR105282_13/08/2014    1.16%    passed     99.16%
+ 179  KR105283_14/08/2014    0.10%    passed    100.00%
+ 180  KR105284_14/08/2014    0.18%    passed    100.00%
+ 181  KR105285_14/08/2014    0.32%    passed     99.97%
+ 182  KR105287_14/08/2014    0.35%    passed     99.97%
+ 183  KR105288_14/08/2014    0.12%    passed    100.00%
+ 184  KR105289_15/08/2014    0.34%    passed     99.98%
+ 185  KR105290_15/08/2014    0.97%    passed     97.42%
+ 186  KR105292_15/08/2014    0.46%    passed     99.76%
+ 187  KR105293_16/08/2014    0.34%    passed     99.97%
+ 188  KR105294_16/08/2014    0.41%    passed     99.87%
+ 189  KR105295_17/08/2014    0.74%    passed     99.95%
+ 190  KR105297_17/08/2014    1.79%    passed     89.71%
+ 191  KR105298_19/08/2014    0.23%    passed     99.95%
+ 192  KR105299_18/08/2014    1.93%    passed     94.79%
+ 193  KR105300_24/08/2014    0.27%    passed     99.87%
+ 194  KR105301_22/08/2014    0.32%    passed     99.92%
+ 195  KR105302_25/08/2014    1.43%    passed     96.76%
+ 196  KR105303_25/08/2014    0.10%    passed     99.99%
+****  TOTAL                  0.67%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KM233038_03/06/2014 is identical to KM233037_03/06/2014 but kept for subsequent analysis
+NOTE: KM233078_15/06/2014 is identical to KM233073_14/06/2014 but kept for subsequent analysis
+NOTE: KM233094_15/06/2014 is identical to KM233081_15/06/2014 but kept for subsequent analysis
+NOTE: KR105225_11/07/2014 is identical to KR105221_10/07/2014 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KM233108_18/06/2014 (identical to KM233037_03/06/2014) is ignored but added at the end
+NOTE: KM233105_17/06/2014 (identical to KM233073_14/06/2014) is ignored but added at the end
+Alignment was printed to trees/ebola.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to trees/ebola.fasta.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+2.972 seconds, parsimony score: 191 (based on 182 sites)
+
+NOTE: 21 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+54 trees examined
+Threads: 1 / Time: 8.129 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -30496
+Threads: 2 / Time: 6.067 sec / Speedup: 1.340 / Efficiency: 67% / LogL: -30496
+Threads: 3 / Time: 5.578 sec / Speedup: 1.457 / Efficiency: 49% / LogL: -30496
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.020 / LogL: -27968.840
+Init pinv, alpha: 0.110, 1.000 / Estimate: 0.110, 0.020 / LogL: -27968.083
+Init pinv, alpha: 0.220, 1.000 / Estimate: 0.220, 0.020 / LogL: -27967.355
+Init pinv, alpha: 0.330, 1.000 / Estimate: 0.330, 0.020 / LogL: -27966.644
+Init pinv, alpha: 0.440, 1.000 / Estimate: 0.441, 0.020 / LogL: -27965.976
+Init pinv, alpha: 0.550, 1.000 / Estimate: 0.551, 0.020 / LogL: -27965.446
+Init pinv, alpha: 0.660, 1.000 / Estimate: 0.661, 0.182 / LogL: -27965.169
+Init pinv, alpha: 0.770, 1.000 / Estimate: 0.771, 0.460 / LogL: -27964.928
+Init pinv, alpha: 0.880, 1.000 / Estimate: 0.881, 2.271 / LogL: -27964.892
+Init pinv, alpha: 0.990, 1.000 / Estimate: 0.970, 998.446 / LogL: -27983.791
+Optimal pinv,alpha: 0.881, 2.271 / LogL: -27964.892
+
+Parameters optimization took 6.867 sec
+Computing ML distances based on estimated model parameters... 0.568 sec
+Computing BIONJ tree...
+0.023 seconds
+Log-likelihood of BIONJ tree: -27971.301
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.966 second
+Computing log-likelihood of 98 initial trees ... 2.535 seconds
+Current best score: -27964.793
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -27964.761
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -27964.710
+Iteration 10 / LogL: -27964.890 / Time: 0h:0m:39s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -27964.455
+Iteration 20 / LogL: -27965.510 / Time: 0h:0m:43s
+Finish initializing candidate tree set (20)
+Current best tree score: -27964.455 / CPU time: 13.845
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -27965.229 / Time: 0h:0m:49s (0h:2m:12s left)
+Iteration 40 / LogL: -27964.910 / Time: 0h:0m:55s (0h:1m:37s left)
+Iteration 50 / LogL: -27965.053 / Time: 0h:1m:2s (0h:1m:15s left)
+Iteration 60 / LogL: -27972.059 / Time: 0h:1m:8s (0h:0m:58s left)
+Iteration 70 / LogL: -27969.861 / Time: 0h:1m:14s (0h:0m:43s left)
+Iteration 80 / LogL: -27977.174 / Time: 0h:1m:21s (0h:0m:31s left)
+Iteration 90 / LogL: -27978.826 / Time: 0h:1m:28s (0h:0m:21s left)
+Iteration 100 / LogL: -27981.041 / Time: 0h:1m:35s (0h:0m:11s left)
+Iteration 110 / LogL: -27978.736 / Time: 0h:1m:41s (0h:0m:1s left)
+TREE SEARCH COMPLETED AFTER 113 ITERATIONS / Time: 0h:1m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -27964.455
+Optimal log-likelihood: -27964.449
+Rate parameters:  A-C: 6.39099  A-G: 56.67342  A-T: 1.95852  C-G: 2.12667  C-T: 69.06926  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.214  G: 0.198  T: 0.269
+Proportion of invariable sites: 0.881
+Gamma shape alpha: 2.314
+Parameters optimization took 1 rounds (0.139 sec)
+BEST SCORE FOUND : -27964.449
+Total tree length: 0.010
+
+Total number of iterations: 113
+CPU time used for tree search: 103.023 sec (0h:1m:43s)
+Wall-clock time used for tree search: 73.780 sec (0h:1m:13s)
+Total CPU time used: 145.029 sec (0h:2m:25s)
+Total wall-clock time used: 103.975 sec (0h:1m:43s)
+
+Analysis results written to: 
+  IQ-TREE report:                trees/ebola.fasta.iqtree
+  Maximum-likelihood tree:       trees/ebola.fasta.treefile
+  Likelihood distances:          trees/ebola.fasta.mldist
+  Screen log file:               trees/ebola.fasta.log
+
+Date and Time: Tue Aug 31 01:20:11 2021
